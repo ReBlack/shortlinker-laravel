@@ -1,0 +1,8 @@
+grumphp:
+    tasks:
+        phpunit:
+            testsuite: Unit
+            always_execute: true
+        phpcsfixer:
+            config: .php-cs-fixer.dist.php
+            allow_risky: false
